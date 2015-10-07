@@ -1,0 +1,898 @@
+body {
+  margin:0;
+  width:100%;
+}
+
+
+
+.container{
+  width:900px;
+  margin: 0 auto;
+}
+
+.header {
+  width:100%;
+  height: 85px;
+  background: #616366;
+}
+
+.menu-icon{
+  display: none;
+}
+
+.main {
+  height: 500px;
+  width:100%;
+  background: #3a040b;
+
+}
+
+.wordmark {
+  float: left;
+  position: relative;
+  width: 160px;
+  padding-top: 15px;
+}
+
+.philau {
+  float: left;
+  position: relative;
+  width: 155px;
+  left: -159px;
+  top: 65px;
+}
+
+.searchtext{
+  font-size: 8pt;
+  color:#fff;
+	font-family: "Arial", serif;
+  float: left;
+  position: relative;
+  left: 10px;
+  top: 10px;
+}
+
+.searchbutton .searchicon {
+  background-image: url('image/searchicon.png');
+  background-size:cover;
+  height: 12px;
+  margin: 6px;
+}
+
+.searchbutton{
+  height: 23px;
+  width: 23px;
+  background: #515151;
+  border-radius: 5px;
+  box-shadow: 0px 1px 0px 0px #727272 inset,0px 2px 0px #000000;
+  float: right;
+  position: relative;
+  right: 3px;
+  bottom: -3px;
+
+}
+
+.searchbox{
+  height: 30px;
+  width:400px;
+  background: #323232;
+  border-radius: 5px;
+  box-shadow:0px 2px 0px 0px #000000 inset,0px 2px 0px #727272;
+  float: right;
+  position: relative;
+  right: 159px;
+  top: 15px;
+}
+
+.signinicon{
+  background-image: url('image/signinicon.png');
+  background-size:cover;
+  height: 17px;
+  width: 19px;
+  margin: -1px;
+  float: left;
+  position: relative;
+  left: 0px;
+  top: 4px;
+}
+
+.signintext{
+  font-size: 8pt;
+  color:#fec81f;
+  font-family: "Arial", serif;
+  float: left;
+  position: relative;
+  left: 65px;
+  top: 5px;
+}
+
+.signinbutton{
+  height: 23px;
+  width: 144px;
+  background: #515151;
+  border-radius: 5px;
+  box-shadow: 0px 1px 0px 0px #727272 inset,0px 2px 0px #000000;
+  float: left;
+  position: relative;
+  right: -3px;
+  bottom: -3px;
+  cursor:pointer;
+}
+
+.signinbutton:hover .signinicon{
+  background-image: url('image/signiniconHover.png');
+  height: 15px;
+  width: 17px;
+  margin: 0px;
+}
+.signinbutton:hover .signintext{
+  font-weight:bold;
+}
+
+.signin{
+  height: 30px;
+  width: 150px;
+  background: #323232;
+  border-radius: 5px;
+  box-shadow: 0px 2px 0px 0px #000000 inset,0px 2px 0px #727272;
+  float: left;
+  position: relative;
+  right: -435px;
+  top: 15px;
+
+}
+
+
+.navigationTabs {
+  float:right;
+  bottom:5px;
+}
+
+.topNavButton {
+	text-align: center;
+  color: #515151;
+
+  background-image: -webkit-gradient(
+  	linear,
+  	left top,
+  	left bottom,
+  	color-stop(0, #A6D2EA),
+  	color-stop(0.05, #9AB5C4),
+  	color-stop(1, #7597AD)
+  );
+  background-image: -o-linear-gradient(bottom, #A6D2EA 0%, #9AB5C4 5%, #7597AD 100%);
+  background-image: -moz-linear-gradient(bottom, #A6D2EA 0%, #9AB5C4 5%, #7597AD 100%);
+  background-image: -webkit-linear-gradient(bottom, #A6D2EA 0%, #9AB5C4 5%, #7597AD 100%);
+  background-image: -ms-linear-gradient(bottom, #A6D2EA 0%, #9AB5C4 5%, #7597AD 100%);
+  background-image: linear-gradient(to bottom, #A6D2EA 0%, #9AB5C4 5%, #7597AD 100%);
+
+  font-size: 8pt;
+  font-weight:bold;
+	font-family: "Arial", serif;
+  padding-top: 8px;
+  padding-right: 40px;
+  padding-bottom: 9px;
+  padding-left: 40px;
+	height: 10px;
+	border-radius: 5px 5px 0px 0px;
+	margin-left: 5px;
+  position:relative;
+  right:0;
+  float: left;
+  top: 28px;
+  cursor:pointer;
+}
+
+.topNavButton:hover{
+  color:#fec81f;
+}
+
+.textbox{
+  height: 80px;
+  width: 10px;
+  background: #fec81f;
+  float: left;
+  position: relative;
+  left: 0px;
+  top: 65px;
+}
+
+.newstitle{
+  height: 80px;
+  width: 1000px;
+  color: #fff;
+	font-size: 30pt;
+	font-family: "Impact", serif;
+  text-shadow:0px 2px 3px #000000;
+  float: left;
+  position: relative;
+  left: 15px;
+  top: -23px;
+}
+
+.newsinformation{
+  height: 25px;
+  width: 1000px;
+  color: #fff;
+  font-size: 18pt;
+  font-family: "Arial", serif;
+  text-shadow:0px 2px 3px #000000;
+  float: left;
+  position: relative;
+  left: 15px;
+  top: -40px;
+}
+
+
+.main .container {
+  background-image: url('image/news1.jpg');
+  background-size:cover;
+  height: 500px;
+}
+
+.news1{
+  float: left;
+  position: relative;
+  left: 225px;
+  height: 500px;
+  margin: 0 auto;
+}
+
+
+a.mainnavButton{
+  font-size: 8pt;
+  color:#fff;
+  font-weight:bold;
+	font-family: "Arial", serif;
+  margin-left: 90px;
+  margin-right: 90px;
+  float: top;
+  text-decoration: none;
+  position: relative;
+  top:2px;
+  cursor:pointer;
+}
+
+.mainnavButton:hover{
+  color:#fec81f;
+}
+
+
+.mainnavSeparate{
+  font-size: 10pt;
+  color:#fec81f;
+  font-weight:bold;
+	font-family: "Arial", serif;
+  float: top;
+  position: relative;
+  top:2px;
+}
+
+.mainnav {
+  width:80%
+  margin:0 auto;
+  bottom:-5px;
+  position: relative;
+  height: 25px;
+  background: #323232;
+  box-shadow:0px 2px 0px 0px #000000 inset,0px 2px 0px #727272;
+}
+
+/**mainnavOverlag_begin**/
+
+.mainnav:hover .mainnavOverlag{
+  visibility: visible;
+}
+
+.mainnavOverlag{
+  visibility: hidden;
+  top:-523px;
+  position: relative;
+  height: 505px;
+
+}
+
+
+.column1{
+  width: 19.5%;
+  height: 505px;
+  background-color: rgba(255,255,255,0.9);
+  margin-right: 5px;
+  left: 5px;
+  position: absolute;
+  float: left;
+  opacity: 0.65;
+}
+.column1:hover{
+  opacity: 1;
+}
+
+.column2{
+  width: 19.5%;
+  height: 505px;
+  background-color: rgba(255,255,255,0.9);
+  margin-right: 5px;
+  left: 256px;
+  position: absolute;
+  float: left;
+  opacity: 0.65;
+}
+.column2:hover{
+  opacity: 1;
+}
+
+.column3{
+  width: 19.5%;
+  height: 505px;
+  background-color: rgba(255,255,255,0.9);
+  margin-right: 5px;
+  left: 507px;
+  position: absolute;
+  float: left;
+  opacity: 0.65;
+}
+.column3:hover{
+  opacity: 1;
+}
+
+.column4{
+  width: 19.5%;
+  height: 505px;
+  background-color: rgba(255,255,255,0.9);
+  margin-right: 5px;
+  left: 758px;
+  position: absolute;
+  float: left;
+  opacity: 0.65;
+}
+.column4:hover{
+  opacity: 1;
+}
+
+.column5{
+  width: 19.5%;
+  height: 505px;
+  background-color: rgba(255,255,255,0.9);
+  margin-right: 5px;
+  left: 1009px;
+  position: absolute;
+  float: left;
+  opacity: 0.65;
+}
+.column5:hover{
+  opacity: 1;
+}
+
+
+.aboutvideoNav{
+  width:195px;
+  margin:25px;
+  top:10px;
+  position: relative;
+}
+.PhilaUMenuNav{
+  width:195px;
+  margin:25px;
+  bottom:20px;
+  position: relative;
+}
+
+.CareerInfoEnter{
+  font-size: 13pt;
+  font-family: Arial,serif;
+  font-weight: bold;
+  color:#4d4a47;
+  margin: 35px;
+  Line-height:30px;
+  position: relative;
+  top: 120px;
+}
+.CareerInfoEnter:hover{
+  color:#8d0e3a;
+  font-size: 15pt;
+}
+
+.ConnectUsInfo{
+  font-size: 10pt;
+  font-family: Arial,serif;
+  font-weight: bold;
+  color: #4d4a47;
+  margin: 20px;
+  Line-height: 20px;
+  position: relative;
+  top: 15px;
+}
+.ConnectUsEnter{
+  font-size: 10pt;
+  font-family: Arial,serif;
+  font-weight: bold;
+  color: #4d4a47;
+  margin: 30px;
+  Line-height: 20px;
+  position: relative;
+  top: 25px;
+  left: -7px;
+}
+.ConnectUsEnter:hover{
+  color:#8d0e3a;
+  font-size: 11pt;
+}
+.ConnectUsProblemEnter{
+  font-size: 9pt;
+  font-family: Arial,serif;
+  font-weight: bold;
+  color: #4d4a47;
+  margin-right: 60px;
+  Line-height: 40px;
+  position: relative;
+  top: 25px;
+  left: 10px;
+}
+.ConnectUsProblemEnter:hover{
+  color:#8d0e3a;
+}
+
+.ShopInfo{
+  width: 166px;
+  position: relative;
+  margin: 40px;
+  top: 165px;
+}
+
+.JoinUsInfo{
+  width: 170px;
+  position: relative;
+  margin: 38px;
+  top: 170px;
+}
+
+
+/**mainnavOverlag_end**/
+
+
+.footline {
+  bottom: -37px;
+  position: relative;
+  height: 1px;
+  background: #fff;
+}
+
+.footTabsButton {
+	text-align: center;
+  color: #515151;
+
+  background-image: -webkit-gradient(
+  	linear,
+  	left top,
+  	left bottom,
+  	color-stop(0, #A6D2EA),
+  	color-stop(0.05, #9AB5C4),
+  	color-stop(1, #7597AD)
+  );
+  background-image: -o-linear-gradient(bottom, #A6D2EA 0%, #9AB5C4 5%, #7597AD 100%);
+  background-image: -moz-linear-gradient(bottom, #A6D2EA 0%, #9AB5C4 5%, #7597AD 100%);
+  background-image: -webkit-linear-gradient(bottom, #A6D2EA 0%, #9AB5C4 5%, #7597AD 100%);
+  background-image: -ms-linear-gradient(bottom, #A6D2EA 0%, #9AB5C4 5%, #7597AD 100%);
+  background-image: linear-gradient(to bottom, #A6D2EA 0%, #9AB5C4 5%, #7597AD 100%);
+
+  font-size: 8pt;
+  font-weight:bold;
+	font-family: "Arial", serif;
+  padding-top: 8px;
+  padding-right: 40px;
+  padding-bottom: 12px;
+  padding-left: 40px;
+	height: 10px;
+	border-radius: 0px 0px 5px 5px;
+	margin-left: 10px;
+  position:relative;
+  right:0;
+  float: left;
+  top: 37px;
+  cursor:pointer;
+}
+
+.footTabsButton:hover{
+  color:#fec81f;
+}
+
+.SocialMedia{
+  height: 30px;
+  width: 275px;
+  background: #323232;
+  border-radius: 5px;
+  box-shadow: 0px 2px 0px 0px #000000 inset,0px 2px 0px #727272;
+  float: right;
+  position: relative;
+  right: 100px;
+  top: 45px;
+}
+
+.SocialMediaButton{
+  height: 20px;
+  margin: 10px;
+  shadow: 0px 1px 0px 0px #727272 inset,0px 2px 0px #000000;
+  float: left;
+  position: relative;
+  left: 22px;
+  top: -5px;
+  cursor:pointer;
+}
+
+.address{
+  font-size: 7pt;
+  font-family: "Arial", serif;
+  height: 15px;
+  width: 800px;
+  float: left;
+  position: relative;
+  left: 10px;
+  top: 54px;
+}
+
+.logo {
+  height: 50px;
+  float: right;
+  position: relative;
+  right:2px;
+  top: 20px;
+}
+
+.footer {
+  height: 110px;
+  width:100%;
+  background: #616366;
+}
+
+
+
+/**Academic-About PhilaU**/
+
+.academicNavigationTabs {
+  float:right;
+  bottom:5px;
+}
+
+a.academicNavButton {
+	text-align: center;
+  color: #515151;
+
+  background-image: -webkit-gradient(
+  	linear,
+  	left top,
+  	left bottom,
+  	color-stop(0, #A6D2EA),
+  	color-stop(0.05, #9AB5C4),
+  	color-stop(1, #7597AD)
+  );
+  background-image: -o-linear-gradient(bottom, #A6D2EA 0%, #9AB5C4 5%, #7597AD 100%);
+  background-image: -moz-linear-gradient(bottom, #A6D2EA 0%, #9AB5C4 5%, #7597AD 100%);
+  background-image: -webkit-linear-gradient(bottom, #A6D2EA 0%, #9AB5C4 5%, #7597AD 100%);
+  background-image: -ms-linear-gradient(bottom, #A6D2EA 0%, #9AB5C4 5%, #7597AD 100%);
+  background-image: linear-gradient(to bottom, #A6D2EA 0%, #9AB5C4 5%, #7597AD 100%);
+
+  font-size: 8pt;
+  font-weight:bold;
+	font-family: "Arial", serif;
+  padding-top: 8px;
+  padding-right: 40px;
+  padding-bottom: 9px;
+  padding-left: 40px;
+	height: 10px;
+	border-radius: 5px 5px 0px 0px;
+	margin-left: 5px;
+  position:relative;
+  right:0;
+  float: left;
+  top: 28px;
+  text-decoration: none;
+  cursor:pointer;
+}
+
+.academicNavButton:hover{
+  color:#fec81f;
+}
+
+.main .academicContainer {
+  background-image: url('image/portalBG-Full.jpg');
+  background-size:cover;
+  height: 500px;
+}
+
+.video{
+  float: center;
+  margin-top:65px;
+  margin-left:380px;
+  margin-right:380px;
+  width: 500px;
+
+}
+
+
+/**Academic-Admission**/
+.academicNavigationTabs {
+  float:right;
+  bottom:5px;
+}
+
+.academicNavButton {
+	text-align: center;
+  color: #515151;
+
+  background-image: -webkit-gradient(
+  	linear,
+  	left top,
+  	left bottom,
+  	color-stop(0, #A6D2EA),
+  	color-stop(0.05, #9AB5C4),
+  	color-stop(1, #7597AD)
+  );
+  background-image: -o-linear-gradient(bottom, #A6D2EA 0%, #9AB5C4 5%, #7597AD 100%);
+  background-image: -moz-linear-gradient(bottom, #A6D2EA 0%, #9AB5C4 5%, #7597AD 100%);
+  background-image: -webkit-linear-gradient(bottom, #A6D2EA 0%, #9AB5C4 5%, #7597AD 100%);
+  background-image: -ms-linear-gradient(bottom, #A6D2EA 0%, #9AB5C4 5%, #7597AD 100%);
+  background-image: linear-gradient(to bottom, #A6D2EA 0%, #9AB5C4 5%, #7597AD 100%);
+
+  font-size: 8pt;
+  font-weight:bold;
+	font-family: "Arial", serif;
+  padding-top: 8px;
+  padding-right: 40px;
+  padding-bottom: 9px;
+  padding-left: 40px;
+	height: 10px;
+	border-radius: 5px 5px 0px 0px;
+	margin-left: 5px;
+  position:relative;
+  right:0;
+  float: left;
+  top: 28px;
+  cursor:pointer;
+}
+
+.academicNavButton:hover{
+  color:#fec81f;
+}
+
+
+.main .admissionsContainer {
+  background-image: url('image/portalBG-Full.jpg');
+  background-size:cover;
+  height: 500px;
+}
+
+.admissionsWindow{
+  width: 55%;
+  height: 500px;
+  margin: 0 auto;
+  position:relative;
+
+
+}
+.allAdmissionsContainer{
+  width: 270px;
+  height: 200px;
+  background-color: rgba(58,4,11,0.75);
+  margin-top: 30px;
+  margin-bottom: 15px;
+  margin-left: 37px;
+  margin-right: 37px;
+  text-align: center;
+  right:0;
+  float: left;
+  top: 28px;
+}
+
+.allAdmissionsContainer:hover{
+  transform:scale(1.2);
+  box-shadow:0px 2px 3px #000000;
+}
+
+.allAdmissionsContainer:hover .enterButton{
+  visibility: visible;
+}
+
+
+
+.AdmissionsImages{
+  width: 250px;
+  margin: 10px;
+
+}
+
+.admissionsButton{
+  width:250px;
+  font-size: 10pt;
+  font-weight:bold;
+	font-family: "Arial", serif;
+  color: #a6acb3;
+  text-align: center;
+  bottom: 25px;
+  position:relative;
+}
+
+.AdmissionsImagesContainer{
+  width:100%;
+  height:20px;
+  margin: 0 auto;
+  bottom:35px;
+  position:relative;
+}
+
+
+.enterButton{
+  visibility: hidden;
+  width:125px;
+  height: 10px;
+  font-size: 8pt;
+  font-weight: bold;
+  font-family: "Arial", serif;
+  color: #fff;
+  text-align: center;
+  position: relative;
+  padding-top: 8px;
+  padding-right: 27px;
+  padding-bottom: 9px;
+  padding-left: 27px;
+  margin-left: -4px;
+  background:rgba(120,183,216,0.5);
+  top: -4px;
+  left: 2px;
+  cursor:pointer;
+}
+
+
+.enterButton:hover{
+  background:rgba(120,183,216,1);
+  color: #3c464c;
+}
+
+/**Shop**/
+
+.shopNavigationTabs {
+  float:right;
+  bottom:5px;
+}
+
+.shopNavButton {
+	text-align: center;
+  color: #515151;
+
+  background-image: -webkit-gradient(
+  	linear,
+  	left top,
+  	left bottom,
+  	color-stop(0, #A6D2EA),
+  	color-stop(0.05, #9AB5C4),
+  	color-stop(1, #7597AD)
+  );
+  background-image: -o-linear-gradient(bottom, #A6D2EA 0%, #9AB5C4 5%, #7597AD 100%);
+  background-image: -moz-linear-gradient(bottom, #A6D2EA 0%, #9AB5C4 5%, #7597AD 100%);
+  background-image: -webkit-linear-gradient(bottom, #A6D2EA 0%, #9AB5C4 5%, #7597AD 100%);
+  background-image: -ms-linear-gradient(bottom, #A6D2EA 0%, #9AB5C4 5%, #7597AD 100%);
+  background-image: linear-gradient(to bottom, #A6D2EA 0%, #9AB5C4 5%, #7597AD 100%);
+
+  font-size: 8pt;
+  font-weight:bold;
+	font-family: "Arial", serif;
+  padding-top: 8px;
+  padding-right: 20px;
+  padding-bottom: 9px;
+  padding-left: 20px;
+	height: 10px;
+	border-radius: 5px 5px 0px 0px;
+	margin-left: 5px;
+  position:relative;
+  right:0;
+  float: left;
+  top: 28px;
+  cursor:pointer;
+}
+
+.shopNavButton:hover{
+  color:#fec81f;
+}
+
+
+.shopContainer{
+  width:900px;
+  margin: 0 auto;
+}
+
+.main .shopContainer {
+  background-image: url('image/sliderimage18.jpg');
+  background-size:cover;
+  height: 500px;
+
+}
+
+.video{
+  float: center;
+  margin-top:65px;
+  margin-left:380px;
+  margin-right:380px;
+  width: 500px;
+
+}
+
+/**all**/
+
+.active{
+  color:#fec81f !important;
+}
+
+/* Tablet */
+
+
+/* Mobile */
+
+@media (max-width: 742px) {
+  .container {
+    width: 90%;
+  }
+  .header {
+    max-height: 60px;
+    background-color: #616366;
+  }
+
+  .wordmark{
+    text-align: center;
+    float: left;
+    position: relative;
+    width: 135px;
+    padding-top: 9px;
+  }
+  .philau{
+    text-align: center;
+    float: left;
+    position: relative;
+    width: 135px;
+    left: -135px;
+    top: 46px;
+  }
+
+  .menu-icon{
+    display: block;
+    float: right;
+    font-size: 45px;
+    color: #fff;
+    position: relative;
+    top: -5px;
+    cursor: pointer;
+  }
+
+  .searchbox{
+    display:none;
+  }
+  .signin{
+    display:none;
+  }
+  .navigationTabs{
+    display:none;
+  }
+  .mainnav{
+    display:none;
+  }
+  .footline{
+    display:none;
+  }
+  .footTabs{
+      display:none;
+  }
+  .SocialMedia{
+    right: 275px;
+    top: 30px;
+    transform: scale(1.6);
+  }
+  .logo{
+    top: -10px;
+    right: 25px;
+    transform: scale(1.6);
+  }
+  .footer:{
+    width: 90%;
+  }
+  .footer.container{
+    transform:scale(0.2);
+
+  }
